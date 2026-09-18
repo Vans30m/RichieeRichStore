@@ -1,102 +1,100 @@
-
 [
     {
         "id": 1,
         "name": "S24 Ultra",
         "price": "₹1,29,999",
         "image": "s24 ultra/s1.jpg",
-        "link": "http://127.0.0.1:5500/the%20richiee%20rich/MOBILE.html#s24ultra"
+        "link": "MOBILE.html#s24ultra"
     },
     {
         "id": 2,
         "name":" Book 4 Pro 360",
         "price": "₹1,59,999",
         "image": "book 4 pro 360/2.jpg",
-        "link": "http://127.0.0.1:5500/the%20richiee%20rich/ELECTRONICS.html#360"
+        "link": "ELECTRONICS.html#360"
     },
     {
         "id": 3,
         "name": "Sonata Multifunction",
         "price": "₹9,898",
         "image": "https://www.sonatawatches.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dwee7ae4e1/images/Sonata/Catalog/77158YM01_1.jpg",
-        "link": "http://127.0.0.1:5500/the%20richiee%20rich/WATCHES.html#sonata"
+        "link": "WATCHES.html#sonata"
     },
     {
         "id": 4,
         "name": "Iphone 16 Pro Max",
         "price": "₹1,64,999",
         "image": "16 pro max/4.jpg",
-        "link": "http://127.0.0.1:5500/the%20richiee%20rich/MOBILE.html#16promax"
+        "link": "MOBILE.html#16promax"
     },
     {
         "id": 5,
         "name": "Mac Book Pro",
         "price": "₹2,39,999",
         "image": "mac book pro/5.jpg",
-        "link": "http://127.0.0.1:5500/the%20richiee%20rich/ELECTRONICS.html#macbookpro"
+        "link": "ELECTRONICS.html#macbookpro"
     },
     {
         "id": 6,
         "name": "Fossil Machine",
         "price": "₹6,898",
         "image": "https://m.media-amazon.com/images/I/71uYFq7YK-L._SL1500_.jpg",
-        "link": "http://127.0.0.1:5500/the%20richiee%20rich/WATCHES.html#fossil1"
+        "link": "WATCHES.html#fossil1"
     },
     {
         "id": 7,
         "name": "Xiaomi 14 Ultra",
         "price": "₹1,19,999",
         "image": "14 ultra/14 ultra 2.jpg",
-        "link": "http://127.0.0.1:5500/the%20richiee%20rich/MOBILE.html#14ultra"
+        "link": "MOBILE.html#14ultra"
     },
     {
         "id": 8,
         "name": "G-Shock Steel Series",
         "price": "₹19,898",
         "image": "https://m.media-amazon.com/images/I/710+KIqjdPL._SX679_.jpg",
-        "link": "http://127.0.0.1:5500/the%20richiee%20rich/WATCHES.html#casio"
+        "link": "WATCHES.html#casio"
     },
     {
         "id": 9,
         "name": "Titan Neo Splash",
         "price": "₹12,980",
         "image": "https://m.media-amazon.com/images/I/81eee7LkeKL._SX679_.jpg",
-        "link": "http://127.0.0.1:5500/the%20richiee%20rich/WATCHES.html#titan"
+        "link": "WATCHES.html#titan"
     },
     {
         "id": 10,
         "name": "Mac Studio (2023)",
         "price": "₹2,29,999",
         "image": "mac 2023/1.jpg",
-        "link": "http://127.0.0.1:5500/the%20richiee%20rich/ELECTRONICS.html#studio"
+        "link": "ELECTRONICS.html#studio"
     },
     {
         "id": 11,
         "name": "Galaxy Book 4 Pro",
         "price": "₹1,79,999",
         "image": "https://m.media-amazon.com/images/I/71va8MZ-bGL._SL1500_.jpg",
-        "link": "http://127.0.0.1:5500/the%20richiee%20rich/ELECTRONICS.html#pro"
+        "link": "ELECTRONICS.html#pro"
     },
     {
         "id": 12,
         "name": "Iphone 16 Plus",
         "price": "₹89,999",
         "image": "16 plus/apple-iphone-16-plus-1.jpg",
-        "link": "http://127.0.0.1:5500/the%20richiee%20rich/MOBILE.html#16plus"
+        "link": "MOBILE.html#16plus"
     },
     {
         "id": 13,
         "name": "Legion 5 Pro (AMD)",
         "price": "₹1,49,999",
         "image": "https://rukminim2.flixcart.com/image/832/832/krjjde80/computer/5/k/z/na-gaming-laptop-lenovo-original-imag5bg5egrw92gp.jpeg?q=70&crop=false",
-        "link": "http://127.0.0.1:5500/the%20richiee%20rich/ELECTRONICS.html#legion"
+        "link": "ELECTRONICS.html#legion"
     },
     {
-        
         "id": 14,
         "name": "S24 Plus",
         "price": "₹1,19,999",
         "image": "s24 plus/samsung-galaxy-s24-plus-5g-sm-s926-1.jpg",
-        "link": "http://127.0.0.1:5500/the%20richiee%20rich/MOBILE.html#s24plus"
+        "link": "MOBILE.html#s24plus"
     }
 ]

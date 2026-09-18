@@ -8,14 +8,19 @@ let products = [];
 let cart = [];
 let http = new XMLHttpRequest();
 
-iconCart.addEventListener('click', () => {
-    body.classList.toggle('showCart');
-})
-closeCart.addEventListener('click', () => {
-    body.classList.toggle('showCart');
-})
+if (iconCart) {
+    iconCart.addEventListener('click', () => {
+        if (body) body.classList.toggle('showCart');
+    });
+}
+if (closeCart) {
+    closeCart.addEventListener('click', () => {
+        if (body) body.classList.toggle('showCart');
+    });
+}
 
     const addDataToHTML = () => {
+        if(!listProductHTML) return;
         if(products.length > 0)
         {
             products.forEach(product => {
@@ -31,13 +36,15 @@ closeCart.addEventListener('click', () => {
             });
         }
     }
-    listProductHTML.addEventListener('click', (event) => {
-        let positionClick = event.target;
-        if(positionClick.classList.contains('addCart')){
-            let id_product = positionClick.parentElement.dataset.id;
-            addToCart(id_product);
-        }
-    })
+    if(listProductHTML) {
+        listProductHTML.addEventListener('click', (event) => {
+            let positionClick = event.target;
+            if(positionClick.classList.contains('addCart')){
+                let id_product = positionClick.parentElement.dataset.id;
+                addToCart(id_product);
+            }
+        });
+    }
 
 
 
@@ -63,6 +70,7 @@ const addCartToMemory = () => {
     localStorage.setItem('cart', JSON.stringify(cart));
 }
 const addCartToHTML = () => {
+    if (!listCartHTML) return;
     listCartHTML.innerHTML = '';
     let totalQuantity = 0;
     if(cart.length > 0){
@@ -74,37 +82,43 @@ const addCartToHTML = () => {
 
             let positionProduct = products.findIndex((value) => value.id == item.product_id);
             let info = products[positionProduct];
-            listCartHTML.appendChild(newItem);
-            newItem.innerHTML = `
-            <div class="image">
-                    <img src="${info.image}">
-                </div>
-                <div class="name">
-                ${info.name}
-                </div>
-                <div class="totalPrice"></div>
-                <div class="quantity">
-                    <span class="minus"> <</span>
-                    <span>${item.quantity}</span>
-                    <span class="plus"> ></span>
-                </div>
-            `;
+            if (info) {
+                listCartHTML.appendChild(newItem);
+                newItem.innerHTML = `
+                <div class="image">
+                        <img src="${info.image}">
+                    </div>
+                    <div class="name">
+                    ${info.name}
+                    </div>
+                    <div class="totalPrice"></div>
+                    <div class="quantity">
+                        <span class="minus"> <</span>
+                        <span>${item.quantity}</span>
+                        <span class="plus"> ></span>
+                    </div>
+                `;
+            }
         })
     }
-    iconCartSpan.innerText = totalQuantity;
+    if (iconCartSpan) {
+        iconCartSpan.innerText = totalQuantity;
+    }
 }
 
-listCartHTML.addEventListener('click', (event) => {
-    let positionClick = event.target;
-    if(positionClick.classList.contains('minus') || positionClick.classList.contains('plus')){
-        let product_id = positionClick.parentElement.parentElement.dataset.id;
-        let type = 'minus';
-        if(positionClick.classList.contains('plus')){
-            type = 'plus';
+if (listCartHTML) {
+    listCartHTML.addEventListener('click', (event) => {
+        let positionClick = event.target;
+        if(positionClick.classList.contains('minus') || positionClick.classList.contains('plus')){
+            let product_id = positionClick.parentElement.parentElement.dataset.id;
+            let type = 'minus';
+            if(positionClick.classList.contains('plus')){
+                type = 'plus';
+            }
+            changeQuantityCart(product_id, type);
         }
-        changeQuantityCart(product_id, type);
-    }
-})
+    });
+}
 const changeQuantityCart = (product_id, type) => {
     let positionItemInCart = cart.findIndex((value) => value.product_id == product_id);
     if(positionItemInCart >= 0){
