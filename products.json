@@ -3,14 +3,14 @@
         "id": 1,
         "name": "S24 Ultra",
         "price": "₹1,29,999",
-        "image": "s24 ultra/s1.jpg",
+        "image": "images/s24-ultra/s1.jpg",
         "link": "MOBILE.html#s24ultra"
     },
     {
         "id": 2,
         "name":" Book 4 Pro 360",
         "price": "₹1,59,999",
-        "image": "book 4 pro 360/2.jpg",
+        "image": "images/book-4-pro-360/2.jpg",
         "link": "ELECTRONICS.html#360"
     },
     {
@@ -24,14 +24,14 @@
         "id": 4,
         "name": "Iphone 16 Pro Max",
         "price": "₹1,64,999",
-        "image": "16 pro max/4.jpg",
+        "image": "images/16-pro-max/4.jpg",
         "link": "MOBILE.html#16promax"
     },
     {
         "id": 5,
         "name": "Mac Book Pro",
         "price": "₹2,39,999",
-        "image": "mac book pro/5.jpg",
+        "image": "images/mac-book-pro/5.jpg",
         "link": "ELECTRONICS.html#macbookpro"
     },
     {
@@ -45,7 +45,7 @@
         "id": 7,
         "name": "Xiaomi 14 Ultra",
         "price": "₹1,19,999",
-        "image": "14 ultra/14 ultra 2.jpg",
+        "image": "images/14-ultra/14 ultra 2.jpg",
         "link": "MOBILE.html#14ultra"
     },
     {
@@ -66,7 +66,7 @@
         "id": 10,
         "name": "Mac Studio (2023)",
         "price": "₹2,29,999",
-        "image": "mac 2023/1.jpg",
+        "image": "images/mac-2023/1.jpg",
         "link": "ELECTRONICS.html#studio"
     },
     {
@@ -80,7 +80,7 @@
         "id": 12,
         "name": "Iphone 16 Plus",
         "price": "₹89,999",
-        "image": "16 plus/apple-iphone-16-plus-1.jpg",
+        "image": "images/16-plus/apple-iphone-16-plus-1.jpg",
         "link": "MOBILE.html#16plus"
     },
     {
@@ -94,7 +94,7 @@
         "id": 14,
         "name": "S24 Plus",
         "price": "₹1,19,999",
-        "image": "s24 plus/samsung-galaxy-s24-plus-5g-sm-s926-1.jpg",
+        "image": "images/s24-plus/samsung-galaxy-s24-plus-5g-sm-s926-1.jpg",
         "link": "MOBILE.html#s24plus"
     }
 ]
